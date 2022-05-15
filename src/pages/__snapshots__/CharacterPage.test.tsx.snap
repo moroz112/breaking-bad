@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterPage must render data 1`] = `
+<div
+  className="max-w-xs mx-auto mt-16"
+>
+  <div
+    className="photo-wrapper p-2"
+  >
+    <img
+      alt="Heisenberg"
+      className="w-80 h-80 mx-auto object-cover"
+      src="https://images.amcnetworks.com/amc.com/wp-content/uploads/2015/04/cast_bb_700x1000_walter-white-lg.jpg"
+    />
+  </div>
+  <div
+    className="p-2"
+  >
+    <h3
+      className="text-center text-xl text-gray-900 font-medium leading-8"
+    >
+      Walter White
+    </h3>
+    <div
+      className="text-center text-gray-400 text-xs"
+    >
+      <p>
+        Presumed dead
+      </p>
+    </div>
+    <table
+      className="text-xs"
+    >
+      <tbody>
+        <tr>
+          <td
+            className="px-4 py-4 font-bold"
+          >
+            Birth
+          </td>
+          <td
+            className="px-4 py-4"
+          >
+            09-07-1958
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="px-4 py-4 font-bold"
+          >
+            Nickname
+          </td>
+          <td
+            className="px-4 py-4"
+          >
+            Heisenberg
+          </td>
+        </tr>
+        <tr>
+          <td
+            className="px-4 py-4 font-bold"
+          >
+            Occupations
+          </td>
+          <td
+            className="px-4 py-4"
+          >
+            High School Chemistry Teacher, Meth King Pin
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      className="text-center"
+    >
+      <a
+        className="text-xs text-indigo-500 hover:underline hover:text-indigo-600 font-medium"
+        onClick={[Function]}
+      >
+        Episodes character appears in
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CharacterPage must render loading 1`] = `"Loading..."`;
